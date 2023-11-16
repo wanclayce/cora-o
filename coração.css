@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+.quadro-lilas {
+    background-color: #8B008B; /* Lilás */
+    color: #fff; /* Texto branco para contrastar */
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #460946;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #b935b9;
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#coracao {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 500px; /* Ajuste o tamanho do coração conforme necessário */
+    height: 500px;
+    background: url('gifs-de-coracao-pulsando-11.gif') no-repeat center center;
+}
